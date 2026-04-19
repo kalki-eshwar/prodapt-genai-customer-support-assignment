@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Lato', 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(255, 196, 124, 0.32), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(69, 165, 201, 0.34), transparent 35%),
+    linear-gradient(170deg, #0b1226, #1f2651 45%, #1c3948);
+}
+
+#root {
+  min-height: 100vh;
+}

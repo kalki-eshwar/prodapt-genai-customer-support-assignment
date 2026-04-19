@@ -1,0 +1,160 @@
+.app-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.header-block {
+  color: #f4f2ed;
+  margin-bottom: 1rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  color: #ffd166;
+  margin: 0;
+}
+
+.header-block h1 {
+  margin: 0.4rem 0;
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+}
+
+.header-block p {
+  margin: 0;
+  max-width: 720px;
+  color: #d7d8e4;
+}
+
+.card {
+  margin-top: 1.2rem;
+  border-radius: 20px;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 24px 60px rgba(12, 18, 40, 0.34);
+  backdrop-filter: blur(6px);
+}
+
+.form-grid {
+  display: grid;
+  gap: 0.7rem;
+}
+
+label {
+  font-weight: 700;
+  color: #1f2940;
+}
+
+textarea,
+select {
+  border-radius: 12px;
+  border: 1px solid #bcc4d8;
+  padding: 0.8rem;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.hint {
+  margin: 0;
+  color: #3f4860;
+  font-size: 0.94rem;
+}
+
+button {
+  width: fit-content;
+  border: none;
+  border-radius: 999px;
+  padding: 0.72rem 1.2rem;
+  font-weight: 700;
+  color: #f8f9fd;
+  background: linear-gradient(120deg, #1747a6, #2096a3);
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: progress;
+}
+
+.error-box {
+  color: #8f1125;
+  background: #ffe8ec;
+  border: 1px solid #f5b7c4;
+  border-radius: 10px;
+  padding: 0.7rem 0.8rem;
+}
+
+.result-grid {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.result-grid article {
+  border: 1px solid #dde2f0;
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: #fdfefe;
+}
+
+.result-grid h2 {
+  margin: 0 0 0.55rem;
+  color: #1c2a4a;
+}
+
+.response-text {
+  margin: 0;
+  white-space: pre-wrap;
+  color: #263248;
+}
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.sources-list li {
+  border: 1px solid #e4e8f4;
+  border-radius: 10px;
+  padding: 0.65rem;
+  background: #ffffff;
+}
+
+.sources-list h3 {
+  margin: 0 0 0.35rem;
+  color: #1b355f;
+  font-size: 1rem;
+}
+
+.sources-list h3 span {
+  color: #6c7392;
+  font-weight: 500;
+}
+
+.sources-list p {
+  margin: 0;
+  color: #2f3545;
+}
+
+@media (max-width: 680px) {
+  .app-shell {
+    padding: 1rem 0.6rem 2rem;
+  }
+
+  .card {
+    padding: 0.9rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

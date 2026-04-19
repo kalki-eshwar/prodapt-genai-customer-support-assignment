@@ -1,0 +1,562 @@
+[
+  {
+    "trouble": "Product arrived damaged",
+    "category": "Returns",
+    "solution": "Request return within 7 days",
+    "alternate_solution": "Offer partial refund",
+    "company_response": "We are sorry your product arrived damaged. Please initiate a return within 7 days for a full refund."
+  },
+  {
+    "trouble": "Item broken on arrival",
+    "category": "Returns",
+    "solution": "Initiate replacement",
+    "alternate_solution": "Offer refund",
+    "company_response": "Apologies for the damaged item. We will arrange a replacement immediately."
+  },
+  {
+    "trouble": "Received defective product",
+    "category": "Returns",
+    "solution": "Process return request",
+    "alternate_solution": "Provide discount",
+    "company_response": "We regret the inconvenience. Please return the defective product for a resolution."
+  },
+  {
+    "trouble": "Wrong item delivered",
+    "category": "Returns",
+    "solution": "Arrange replacement",
+    "alternate_solution": "Issue refund",
+    "company_response": "We apologize for the incorrect item. A replacement has been initiated."
+  },
+  {
+    "trouble": "Missing item in package",
+    "category": "Returns",
+    "solution": "Verify and refund",
+    "alternate_solution": "Ship missing item",
+    "company_response": "We are sorry an item was missing. We will process your refund shortly."
+  },
+  {
+    "trouble": "Size mismatch in order",
+    "category": "Returns",
+    "solution": "Exchange item",
+    "alternate_solution": "Offer refund",
+    "company_response": "Please initiate a size exchange. We are happy to assist further."
+  },
+  {
+    "trouble": "Product not as described",
+    "category": "Returns",
+    "solution": "Return item",
+    "alternate_solution": "Partial refund",
+    "company_response": "We apologize for the mismatch. You may return the product for a refund."
+  },
+  {
+    "trouble": "Return request rejected",
+    "category": "Returns",
+    "solution": "Re-evaluate request",
+    "alternate_solution": "Escalate case",
+    "company_response": "We are reviewing your return request again and will update you shortly."
+  },
+  {
+    "trouble": "Return pickup not done",
+    "category": "Returns",
+    "solution": "Reschedule pickup",
+    "alternate_solution": "Cancel return",
+    "company_response": "We are arranging another pickup attempt at your convenience."
+  },
+  {
+    "trouble": "Damaged item after few days",
+    "category": "Returns",
+    "solution": "Check warranty",
+    "alternate_solution": "Partial refund",
+    "company_response": "Please share details. We will check warranty coverage for resolution."
+  },
+  {
+    "trouble": "Order delayed",
+    "category": "Delivery",
+    "solution": "Update delivery timeline",
+    "alternate_solution": "Provide coupon",
+    "company_response": "We regret the delay. Your order will arrive soon."
+  },
+  {
+    "trouble": "Late delivery issue",
+    "category": "Delivery",
+    "solution": "Check tracking",
+    "alternate_solution": "Compensation coupon",
+    "company_response": "We apologize for the delay and appreciate your patience."
+  },
+  {
+    "trouble": "Order not delivered yet",
+    "category": "Delivery",
+    "solution": "Contact courier",
+    "alternate_solution": "Escalate issue",
+    "company_response": "We are checking with our delivery partner and will update you shortly."
+  },
+  {
+    "trouble": "Tracking not updated",
+    "category": "Delivery",
+    "solution": "Inform delay",
+    "alternate_solution": "Contact courier",
+    "company_response": "Tracking updates may be delayed. We are verifying with courier."
+  },
+  {
+    "trouble": "Delivery reschedule request",
+    "category": "Delivery",
+    "solution": "Update delivery slot",
+    "alternate_solution": "Cancel order",
+    "company_response": "Your delivery has been rescheduled as requested."
+  },
+  {
+    "trouble": "Delivery agent not reachable",
+    "category": "Delivery",
+    "solution": "Contact courier",
+    "alternate_solution": "Reschedule delivery",
+    "company_response": "We are coordinating with the delivery team to resolve this."
+  },
+  {
+    "trouble": "Order marked delivered but not received",
+    "category": "Delivery",
+    "solution": "Investigate issue",
+    "alternate_solution": "Refund after verification",
+    "company_response": "We will investigate this issue and update you soon."
+  },
+  {
+    "trouble": "Delivery delayed due to weather",
+    "category": "Delivery",
+    "solution": "Inform delay",
+    "alternate_solution": "Provide coupon",
+    "company_response": "We regret the delay due to weather conditions."
+  },
+  {
+    "trouble": "Delivery failed attempt",
+    "category": "Delivery",
+    "solution": "Reschedule delivery",
+    "alternate_solution": "Cancel order",
+    "company_response": "We will attempt delivery again at your convenience."
+  },
+  {
+    "trouble": "Wrong delivery address used",
+    "category": "Delivery",
+    "solution": "Correct address",
+    "alternate_solution": "Assist return",
+    "company_response": "We are reviewing the address issue and will assist further."
+  },
+  {
+    "trouble": "Payment deducted but order failed",
+    "category": "Payments",
+    "solution": "Process refund",
+    "alternate_solution": "Escalate bank",
+    "company_response": "Your refund will be processed within 5 business days."
+  },
+  {
+    "trouble": "Double payment charged",
+    "category": "Payments",
+    "solution": "Refund duplicate",
+    "alternate_solution": "Escalate issue",
+    "company_response": "We will refund the duplicate payment shortly."
+  },
+  {
+    "trouble": "Refund not received",
+    "category": "Payments",
+    "solution": "Check refund status",
+    "alternate_solution": "Escalate finance",
+    "company_response": "Your refund is in process and will reflect soon."
+  },
+  {
+    "trouble": "Payment failed repeatedly",
+    "category": "Payments",
+    "solution": "Try different method",
+    "alternate_solution": "Contact bank",
+    "company_response": "Please try another payment method or contact your bank."
+  },
+  {
+    "trouble": "Incorrect billing amount",
+    "category": "Payments",
+    "solution": "Verify invoice",
+    "alternate_solution": "Refund excess",
+    "company_response": "We are correcting the billing discrepancy."
+  },
+  {
+    "trouble": "Refund delayed",
+    "category": "Payments",
+    "solution": "Inform processing time",
+    "alternate_solution": "Escalate case",
+    "company_response": "Refunds take 5-7 days. We appreciate your patience."
+  },
+  {
+    "trouble": "Payment pending",
+    "category": "Payments",
+    "solution": "Check gateway",
+    "alternate_solution": "Retry payment",
+    "company_response": "Your payment is under processing. Please wait."
+  },
+  {
+    "trouble": "Refund rejected",
+    "category": "Payments",
+    "solution": "Check eligibility",
+    "alternate_solution": "Escalate review",
+    "company_response": "We are reviewing your refund request again."
+  },
+  {
+    "trouble": "Wallet amount not updated",
+    "category": "Payments",
+    "solution": "Refresh account",
+    "alternate_solution": "Manual update",
+    "company_response": "We are updating your wallet balance shortly."
+  },
+  {
+    "trouble": "Cashback not credited",
+    "category": "Payments",
+    "solution": "Verify eligibility",
+    "alternate_solution": "Manual credit",
+    "company_response": "Your cashback will be credited after verification."
+  },
+  {
+    "trouble": "Unable to login",
+    "category": "Account",
+    "solution": "Reset password",
+    "alternate_solution": "Manual reset",
+    "company_response": "Please reset your password using the link provided."
+  },
+  {
+    "trouble": "Forgot password",
+    "category": "Account",
+    "solution": "Send reset link",
+    "alternate_solution": "Verify identity",
+    "company_response": "We have sent a password reset link to your email."
+  },
+  {
+    "trouble": "Account locked",
+    "category": "Account",
+    "solution": "Unlock account",
+    "alternate_solution": "Wait and retry",
+    "company_response": "Your account will be unlocked shortly."
+  },
+  {
+    "trouble": "Account hacked",
+    "category": "Account",
+    "solution": "Secure account",
+    "alternate_solution": "Reset credentials",
+    "company_response": "We have secured your account. Please reset your password."
+  },
+  {
+    "trouble": "Email not received",
+    "category": "Account",
+    "solution": "Check spam",
+    "alternate_solution": "Resend email",
+    "company_response": "Please check spam folder or request a resend."
+  },
+  {
+    "trouble": "Account suspended",
+    "category": "Account",
+    "solution": "Review account",
+    "alternate_solution": "Escalate support",
+    "company_response": "We are reviewing your account suspension."
+  },
+  {
+    "trouble": "Unable to update profile",
+    "category": "Account",
+    "solution": "Check system",
+    "alternate_solution": "Manual update",
+    "company_response": "We will assist you in updating your profile."
+  },
+  {
+    "trouble": "Phone number change request",
+    "category": "Account",
+    "solution": "Verify identity",
+    "alternate_solution": "Update number",
+    "company_response": "Your request is being processed securely."
+  },
+  {
+    "trouble": "Account inactive",
+    "category": "Account",
+    "solution": "Reactivate account",
+    "alternate_solution": "Contact support",
+    "company_response": "We have reactivated your account."
+  },
+  {
+    "trouble": "Multiple accounts created",
+    "category": "Account",
+    "solution": "Merge accounts",
+    "alternate_solution": "Deactivate extra",
+    "company_response": "We will help consolidate your accounts."
+  },
+  {
+    "trouble": "App crashing",
+    "category": "Technical",
+    "solution": "Clear cache",
+    "alternate_solution": "Update app",
+    "company_response": "Please clear cache or update the app."
+  },
+  {
+    "trouble": "App not loading",
+    "category": "Technical",
+    "solution": "Check internet",
+    "alternate_solution": "Reinstall app",
+    "company_response": "Ensure stable connection or reinstall app."
+  },
+  {
+    "trouble": "App slow performance",
+    "category": "Technical",
+    "solution": "Close background apps",
+    "alternate_solution": "Update app",
+    "company_response": "Performance should improve after update."
+  },
+  {
+    "trouble": "Error during checkout",
+    "category": "Technical",
+    "solution": "Retry process",
+    "alternate_solution": "Clear data",
+    "company_response": "Please retry checkout after refreshing."
+  },
+  {
+    "trouble": "OTP not received",
+    "category": "Technical",
+    "solution": "Check network",
+    "alternate_solution": "Resend OTP",
+    "company_response": "We can resend the OTP upon request."
+  },
+  {
+    "trouble": "App freezing",
+    "category": "Technical",
+    "solution": "Clear cache",
+    "alternate_solution": "Restart device",
+    "company_response": "Restarting device may resolve the issue."
+  },
+  {
+    "trouble": "Login session expired",
+    "category": "Technical",
+    "solution": "Re-login",
+    "alternate_solution": "Update app",
+    "company_response": "Please log in again to continue."
+  },
+  {
+    "trouble": "App update issue",
+    "category": "Technical",
+    "solution": "Reinstall app",
+    "alternate_solution": "Rollback version",
+    "company_response": "We recommend reinstalling the app."
+  },
+  {
+    "trouble": "Notifications not working",
+    "category": "Technical",
+    "solution": "Check settings",
+    "alternate_solution": "Reinstall app",
+    "company_response": "Enable notifications in settings."
+  },
+  {
+    "trouble": "Payment page not loading",
+    "category": "Technical",
+    "solution": "Check connection",
+    "alternate_solution": "Retry later",
+    "company_response": "Please try again after some time."
+  },
+  {
+    "trouble": "Coupon not working",
+    "category": "Offers",
+    "solution": "Check eligibility",
+    "alternate_solution": "Provide alternate",
+    "company_response": "Offer may not apply. We will assist with another."
+  },
+  {
+    "trouble": "Offer expired",
+    "category": "Offers",
+    "solution": "Verify expiry",
+    "alternate_solution": "Provide new coupon",
+    "company_response": "We will provide a new offer for you."
+  },
+  {
+    "trouble": "Discount not applied",
+    "category": "Offers",
+    "solution": "Apply manually",
+    "alternate_solution": "Provide coupon",
+    "company_response": "Discount will be applied shortly."
+  },
+  {
+    "trouble": "Cashback issue",
+    "category": "Offers",
+    "solution": "Verify eligibility",
+    "alternate_solution": "Manual credit",
+    "company_response": "We will credit cashback soon."
+  },
+  {
+    "trouble": "Promo code invalid",
+    "category": "Offers",
+    "solution": "Check code",
+    "alternate_solution": "Provide alternate",
+    "company_response": "Please try another valid promo code."
+  },
+  {
+    "trouble": "Offer not visible",
+    "category": "Offers",
+    "solution": "Check eligibility",
+    "alternate_solution": "Enable manually",
+    "company_response": "We will check and update the offer."
+  },
+  {
+    "trouble": "Offer not applicable",
+    "category": "Offers",
+    "solution": "Explain rules",
+    "alternate_solution": "Provide alternate",
+    "company_response": "Offer conditions may not be met."
+  },
+  {
+    "trouble": "Multiple offers conflict",
+    "category": "Offers",
+    "solution": "Apply best offer",
+    "alternate_solution": "Explain policy",
+    "company_response": "Best available offer has been applied."
+  },
+  {
+    "trouble": "Discount mismatch",
+    "category": "Offers",
+    "solution": "Correct pricing",
+    "alternate_solution": "Manual fix",
+    "company_response": "We are correcting the pricing."
+  },
+  {
+    "trouble": "Referral bonus missing",
+    "category": "Offers",
+    "solution": "Verify referral",
+    "alternate_solution": "Manual credit",
+    "company_response": "Referral bonus will be credited."
+  },
+  {
+    "trouble": "Order placed by mistake",
+    "category": "Orders",
+    "solution": "Cancel order",
+    "alternate_solution": "Contact support",
+    "company_response": "Your order has been cancelled."
+  },
+  {
+    "trouble": "Unable to cancel order",
+    "category": "Orders",
+    "solution": "Explain policy",
+    "alternate_solution": "Return later",
+    "company_response": "Order cancellation window has passed."
+  },
+  {
+    "trouble": "Modify order request",
+    "category": "Orders",
+    "solution": "Allow before dispatch",
+    "alternate_solution": "Cancel and reorder",
+    "company_response": "Please modify before dispatch."
+  },
+  {
+    "trouble": "Order not visible",
+    "category": "Orders",
+    "solution": "Refresh account",
+    "alternate_solution": "Check backend",
+    "company_response": "We are checking your order details."
+  },
+  {
+    "trouble": "Duplicate order placed",
+    "category": "Orders",
+    "solution": "Cancel duplicate",
+    "alternate_solution": "Refund extra",
+    "company_response": "We have cancelled the duplicate order."
+  },
+  {
+    "trouble": "Order stuck in processing",
+    "category": "Orders",
+    "solution": "Check status",
+    "alternate_solution": "Escalate issue",
+    "company_response": "We are resolving the processing delay."
+  },
+  {
+    "trouble": "Order confirmation not received",
+    "category": "Orders",
+    "solution": "Resend confirmation",
+    "alternate_solution": "Check email",
+    "company_response": "Confirmation has been resent."
+  },
+  {
+    "trouble": "Invoice not available",
+    "category": "Orders",
+    "solution": "Send invoice",
+    "alternate_solution": "Download option",
+    "company_response": "Invoice is now available."
+  },
+  {
+    "trouble": "Order shipped incorrectly",
+    "category": "Orders",
+    "solution": "Assist return",
+    "alternate_solution": "Refund",
+    "company_response": "We will help you return the order."
+  },
+  {
+    "trouble": "Order delayed due to stock",
+    "category": "Orders",
+    "solution": "Inform timeline",
+    "alternate_solution": "Offer cancellation",
+    "company_response": "Item will be restocked soon."
+  },
+  {
+    "trouble": "Product damaged after use",
+    "category": "Returns",
+    "solution": "Check warranty",
+    "alternate_solution": "Reject claim",
+    "company_response": "Please check warranty coverage."
+  },
+  {
+    "trouble": "Late return request",
+    "category": "Returns",
+    "solution": "Reject request",
+    "alternate_solution": "Offer discount",
+    "company_response": "Return window has expired."
+  },
+  {
+    "trouble": "Used product return request",
+    "category": "Returns",
+    "solution": "Reject return",
+    "alternate_solution": "Offer support",
+    "company_response": "Used items are not eligible for return."
+  },
+  {
+    "trouble": "Packaging missing for return",
+    "category": "Returns",
+    "solution": "Reject return",
+    "alternate_solution": "Partial refund",
+    "company_response": "Original packaging is required."
+  },
+  {
+    "trouble": "Return refund partial",
+    "category": "Returns",
+    "solution": "Explain deduction",
+    "alternate_solution": "Escalate case",
+    "company_response": "Refund adjusted as per policy."
+  },
+  {
+    "trouble": "High delay complaint",
+    "category": "Delivery",
+    "solution": "Priority delivery",
+    "alternate_solution": "Compensation",
+    "company_response": "We are expediting your delivery."
+  },
+  {
+    "trouble": "Severe payment issue",
+    "category": "Payments",
+    "solution": "Immediate refund",
+    "alternate_solution": "Escalate urgent",
+    "company_response": "Your issue is being handled urgently."
+  },
+  {
+    "trouble": "Critical account issue",
+    "category": "Account",
+    "solution": "Immediate support",
+    "alternate_solution": "Escalate team",
+    "company_response": "We are prioritizing your request."
+  },
+  {
+    "trouble": "Major app bug",
+    "category": "Technical",
+    "solution": "Fix update",
+    "alternate_solution": "Temporary workaround",
+    "company_response": "Our team is working on a fix."
+  },
+  {
+    "trouble": "Special offer complaint",
+    "category": "Offers",
+    "solution": "Provide new offer",
+    "alternate_solution": "Escalate case",
+    "company_response": "We will provide a better offer."
+  }
+]
