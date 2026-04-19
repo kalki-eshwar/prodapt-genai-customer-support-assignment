@@ -151,12 +151,6 @@ Each log entry contains:
 - Generation quality guard validated:
   - if model output is empty, truncated, or reasoning-style, backend returns concise policy-grounded fallback text
 
-### UI Tests (Playwright MCP)
-Executed end-to-end in browser automation against `http://localhost:5173`:
-- Complaint submission in Strict mode
-- Response panel renders with generation details and retrieved docs
-- Friendly mode no-match case renders fallback message
-
 ## Notes
 
 - If `SARVAM_API_KEY` is not configured, backend returns a clear configuration message instead of LLM output.
